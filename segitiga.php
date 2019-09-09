@@ -9,7 +9,7 @@ $a = 8;
 $b = 2;
 segitiga($a,$b);
 
-function segitiga ($alas, $tinggi){
+function lingkaran(){
     echo "<h1>Luas Lingkaran</h1><br>Diameter : $diameter<br>"
     echo "<h1>Jari - Jari $alas <br>";
     echo "Luas Lingkaran : ". $hpi* $rad* $rad."cm<br>";

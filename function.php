@@ -1,4 +1,5 @@
 <?php
+
 //Membuat Function Dengan Nama "hallo"
 function hallo()
 {
