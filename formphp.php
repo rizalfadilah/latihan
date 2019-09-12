@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
     $jabatan = $_POST['jabatan'];
     $golongan = $_POST['golongan'];
 
-    
+
     echo "<pre>";
     echo "<h3 align='right'>".date("d/m/Y H:i:s")."</h3>";
     echo "Nama          : <b>$nama</b><br>";
@@ -65,9 +65,7 @@ if(isset($_POST['submit'])){
     if (isset($_POST['jamsostek'])) {
         echo "<br>, <b>".$_POST['jamsostek']."</b>";
         $potongan3 = 150000;
-        $potongan = $potongan3 + $potongan2 + $potongan1;operasioperasi = Rp. $potongan2</b>";
-    } = Rp. $potongan2</b>";
-    }
+        $potongan = $potongan3 + $potongan2 + $potongan1;
     } 
     echo "<br>Golongan      : <b>$golongan</b><br>";
     $gajikotor = ($jbtn + $gol + $stts) - $potongan;

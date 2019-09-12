@@ -5,7 +5,7 @@
     <body>
         <fieldset>
             <legend><h2>Form Penggajian Karyawan</h2></legend>
-            <form action="progaji.php" method="post" name="input">
+            <form action="formphp.php" method="post" name="input">
                 <table>
                     <tr>
                         <td>Nama</td>
