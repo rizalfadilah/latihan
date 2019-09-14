@@ -10,7 +10,13 @@
                     <tr>
                         <td>Masukkan Jumlah</td>
                         <td><input type="number" name="angka"></td>
-                    </tr>
+                    </tr><html>
+    <head>
+        <title>Penggajian Karyawan</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend><h2>Penggajian Karyawan</h2></legend>
                     <tr>
                         <td><input type="submit" name="submit" value="Submit"></input></td>
                     </tr>

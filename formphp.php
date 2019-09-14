@@ -18,7 +18,7 @@ if(isset($_POST['submit'])){
 
     echo "<pre>";
     echo "<h3 align='right'>".date("d/m/Y H:i:s")."</h3>";
-    echo "Nama          : <b>$nama</b><br>";
+    echo "Nama          : <b>$nama</b>pe<br>";
     echo "NIP           : <b>$nip</b><br>";
     echo "Jenis Kelamin : <b>$jenkel</b><br>";
     echo "Alamat        : <b>$alamat</b><br>";
@@ -79,7 +79,13 @@ if(isset($_POST['submit'])){
     echo "Golongan      :<b> $golongan = Rp. $gol </b>";
     echo "<br>Status        : <b>$status   = Rp. $stts</b>";
     echo "<br>Jabatan       : <b>$jabatan  = Rp. $jbtn</b>";
-    if(isset($_POST['bpjs'])) {
+    if(is<html>
+    <head>
+        <title>Penggajian Karyawan</title>
+    </head>
+    <body>
+        <fieldset>
+            <legend><h2>Penggajian Karyawan</h2></legend>set($_POST['bpjs'])) {
         echo "<br><b>Potongan      : BPJS = Rp. $potongan1</b>";
     }
     if(isset($_POST['koperasi'])) {
