@@ -8,7 +8,7 @@
          $nama       = $_POST['nama'];
          $alamat     = $_POST['alamat'];
          $jenkel     = $_POST['jenkel'];
-         $tanggal    = $_POST['tgl'];
+         $tanggal    = $_POST['tanggal'];
          $jumlah     = $_POST['jml'];
          $judul      = $_POST['judul'];
          $kode       = $_POST['kode'];
@@ -17,11 +17,11 @@
          $harga      = $_POST['harga'];
 
          echo "<pre>";
-         echo "Nama          : $nama<br>";
-         echo "Alamat          : $alamat<br>";
+         echo "nama          : $nama<br>";
+         echo "alamat          : $alamat<br>";
          echo "pengarang          : $pengarang<br>";
          echo "tanggal          : $tanggal<br>";
-         echo "Jumlah Buku          : $jumlah<br>";
+         echo "jml            : $jumlah<br>";
          echo "<hr>";
 
          if (isset($_POST['next'])) {
